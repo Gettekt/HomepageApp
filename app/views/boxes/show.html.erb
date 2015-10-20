@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Page:</strong>
+  <%= @box.page_id %>
+</p>
+
+<p>
+  <strong>Widget:</strong>
+  <%= @box.widget_id %>
+</p>
+
+<p>
+  <strong>Box width:</strong>
+  <%= @box.box_width %>
+</p>
+
+<p>
+  <strong>Box height:</strong>
+  <%= @box.box_height %>
+</p>
+
+<%= link_to 'Edit', edit_box_path(@box) %> |
+<%= link_to 'Back', boxes_path %>

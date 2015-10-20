@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :widgets
+  resources :boxes
+  resources :settings
+  resources :pages
+  resources :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
